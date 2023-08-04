@@ -7,7 +7,7 @@ import warnings
 warnings.simplefilter(action="ignore", category=FutureWarning)
 
 # Load the dataset
-df = pd.read_csv('/content/Iris.csv')
+df = pd.read_csv('Iris.csv')
 
 # Explore the dataset
 print("Iris Dataset:")
